@@ -223,7 +223,8 @@ void construct_V_to_E_graph() {
         fileinput<<endl;
     }
     fileinput.close();
-
+    //Now V is as the index of every vector, and all int value inside it is its edge to another V
+    //Graph is saved in V_to_E_graph.txt
 
 }
 
