@@ -1,0 +1,11 @@
+#RESET
+reset;
+#LOAD THE MODEL
+model edge_color.mod;
+#LOAD THE DATA
+data edge_color.dat;
+#CHANGE THE SOLVER (optional)
+option solver "ampl_macosx64/./cplex";
+#SOLVE
+solve;
+#SHOW RESULTS
